@@ -1,0 +1,17 @@
+:root {
+    /* fonts */
+    --font-comic-sans-ms: "Comic Sans MS";
+    --font-roboto: Roboto;
+  
+    /* font sizes */
+    --font-size-base: 14px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray: #1a120b;
+    --color-beige: #e5e5cb;
+  
+    /* border radiuses */
+    --br-md: 50px;
+  }
+  
