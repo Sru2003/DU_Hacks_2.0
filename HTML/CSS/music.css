@@ -3,11 +3,18 @@ body{
     background-image: url(https://wallpaperaccess.com/full/1353542.jpg);
    
 }
-.main{
-    text-align: center;
-    color: #1A120B;
-    
-} 
+p{
+  line-height: 25px;
+  font-size: large;
+}
+.heading {
+  text-align: center;
+  color: #2B1800;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .home-articles {
     padding: 18px;
