@@ -1,9 +1,9 @@
 body{
-    padding: 0; 
-    background:  #D5CEA3;
+  
     box-sizing: border-box;
 
 }
+
 .navbar {
     display: flex;
     position: relative;
@@ -82,7 +82,7 @@ body{
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #3C2A21;
+    background-color: wheat;
     border-radius: 10px;
 }
 
