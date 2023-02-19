@@ -7,150 +7,218 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Reviews</title>
     <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
 </head>
 
 <body>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            fade: 'fade-down',
+            delay: 100,
+        });
+    </script>
+    <nav class="navbar">
+        <div class="logo">Logo</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#" class="" id="">Home</a></li>
+                <li><a href="#" class="" id="">Sports</a></li>
+                <li><a href="finance.html" class="" id="">Finance</a></li>
+                <li><a href="book.html" class="" id="">Books</a></li>
+                <li><a href="#" class="" id="">Movies</a></li>
+                <li><a href="travel.html" class="" id="">Tourism</a></li>
+                <li><a href="Music.html" class="" id="">Music</a></li>
+                <div class="searching">
+                    <form action="">
+
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                </form>
+            </ul>
+
+        </div>
+    </nav>
     <div class="heading">
         <h1>Books</h1>
-    </div>
 
-    <div id="cardlayout">
-        <!-- Book 1 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b1.jpg" alt="">
-                <div class="info">
-                    <h1>Heading1</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 2 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b2.jpg" alt="">
-                <div class="info">
-                    <h1>Heading2</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 3 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b3.jpg" alt="">
-                <div class="info">
-                    <h1>Heading3</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 4 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b4.jpg" alt="">
-                <div class="info">
-                    <h1>Heading4</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 5 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b5.jpg" alt="">
-                <div class="info">
-                    <h1>Heading5</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 6 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b6.jpg" alt="">
-                <div class="info">
-                    <h1>Heading6</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 7 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b7.jpg" alt="">
-                <div class="info">
-                    <h1>Heading7</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 8 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b8.jpg" alt="">
-                <div class="info">
-                    <h1>Heading8</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book 9 -->
-        <div class="wrapper">
-            <div class="card">
-                <img src="Books/b9.jpg" alt="">
-                <div class="info">
-                    <h1>Heading9</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique
-                        molestiae?</p>
-                        <br>
-                    <div class="text-box">
-                        <a href="#" class="btn btn-white btn-        animate">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <i>
+            <p>
+                "A room without books is like body without soul"
+                <br>
+                - Cicero
+            </p>
+        </i>
     </div>
+    <section data-aos="fade-down">
+        <div class="cardlayout">
+            <!-- Book 1 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b1.jpg" alt="">
+                    <div class="info">
+                        <h1>Sherlock Holmes</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Book 2 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b2.jpg" alt="">
+                    <div class="info">
+                        <h1>Harry Potter</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Book 3 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b3.jpg" alt="">
+                    <div class="info">
+                        <h1>Wings of Fire</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-down">
+        <div class="cardlayout">
+            <!-- Book 4 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b4.jpg" alt="">
+                    <div class="info">
+                        <h1>Ikigai</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Book 5 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b5.jpg" alt="">
+                    <div class="info">
+                        <h1>The Alchemist</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Book 6 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b6.jpg" alt="">
+                    <div class="info">
+                        <h1>Heading6</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-down">
+        <div class="cardlayout">
+            <!-- Book 7 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b7.jpg" alt="">
+                    <div class="info">
+                        <h1>Heading7</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Book 8 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b8.jpg" alt="">
+                    <div class="info">
+                        <h1>Heading8</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Book 9 -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="Books/b9.jpg" alt="">
+                    <div class="info">
+                        <h1>Heading9</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga
+                            similique
+                            molestiae?</p>
+                        <br>
+                        <div class="text-box">
+                            <a href="#" class="btn btn-white btn-        animate">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
