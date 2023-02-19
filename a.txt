@@ -5,7 +5,9 @@
             <div class="info">
                 <h1>Heading4</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <button><a href="#" class ='btn'>Read More</a></button>
+                <div class="text-box">
+    <a href="#" class="btn btn-white btn-        animate">click me</a>
+</div>
             </div>
         </div>
     </div>
@@ -16,7 +18,9 @@
             <div class="info">
                 <h1>Heading5</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <button><a href="#" class ='btn'>Read More</a></button>
+                <div class="text-box">
+    <a href="#" class="btn btn-white btn-        animate">click me</a>
+</div>
             </div>
         </div>
     </div>
@@ -27,7 +31,9 @@
             <div class="info">
                 <h1>Heading6</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <button><a href="#" class ='btn'>Read More</a></button>
+                <div class="text-box">
+    <a href="#" class="btn btn-white btn-        animate">click me</a>
+</div>
             </div>
         </div>
     </div>
@@ -38,7 +44,9 @@
             <div class="info">
                 <h1>Heading7</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <button><a href="#" class ='btn'>Read More</a></button>
+                <div class="text-box">
+    <a href="#" class="btn btn-white btn-        animate">click me</a>
+</div>
             </div>
         </div>
     </div>
@@ -49,7 +57,9 @@
             <div class="info">
                 <h1>Heading8</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <button><a href="#" class ='btn'>Read More</a></button>
+                <div class="text-box">
+    <a href="#" class="btn btn-white btn-        animate">click me</a>
+</div>
             </div>
         </div>
     </div>
@@ -60,7 +70,9 @@
             <div class="info">
                 <h1>Heading9</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <button><a href="#" class ='btn'>Read More</a></button>
+                <div class="text-box">
+    <a href="#" class="btn btn-white btn-        animate">click me</a>
+</div>
             </div>
         </div>
     </div>
