@@ -84,6 +84,10 @@
     margin-left: 30px;
    
   }
+  
+  .button_group a{
+    color: #1A120B;
+  }
   .input_text{
       width: 95%;
       height: 30px;

@@ -79,10 +79,15 @@
       justify-content: start;
   }
   .button_group{
-    color: #3C2A21;
+    color: wheat;
     font-weight: 700;
     margin-left: 30px;
+    
    
+  }
+  .button_group a{
+    color: #1A120B;
+    
   }
   .input_text{
       width: 95%;
