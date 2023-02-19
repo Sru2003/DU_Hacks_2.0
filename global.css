@@ -1,17 +1,21 @@
 :root {
-    /* fonts */
-    --font-comic-sans-ms: "Comic Sans MS";
-    --font-roboto: Roboto;
-  
-    /* font sizes */
-    --font-size-base: 14px;
-  
-    /* Colors */
-    --color-white: #fff;
-    --color-gray: #1a120b;
-    --color-beige: #e5e5cb;
-  
-    /* border radiuses */
-    --br-md: 50px;
-  }
-  
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-base: 13px;
+  --font-size-lg: 14px;
+  --font-size-xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blueviolet: rgba(151, 71, 255, 0);
+  --color-gray: #1a120b;
+  --color-gainsboro: #d9d9d9;
+  --color-beige: #e5e5cb;
+
+  /* border radiuses */
+  --br-sm: 5px;
+  --br-md: 20px;
+  --br-lg: 50px;
+}
