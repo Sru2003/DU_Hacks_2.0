@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: #3C2A21;
+    background: url('https://wallpaperaccess.com/full/3876048.jpg') center;
+    /* background-size: cover; */
 }
 
 .heading {
@@ -13,7 +14,7 @@ body {
     font: bold;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
     font-size: x-large;
-    color: #D5CEA3;
+    color: #fff;
     font-style: italic;
     font-weight: bold;
 }
