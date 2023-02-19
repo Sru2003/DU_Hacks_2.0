@@ -1,78 +1,8 @@
-  <!-- Book 4 -->
-    <div class="wrapper">
-        <div class="card">
-            <img src="Books/b4.jpg" alt="">
-            <div class="info">
-                <h1>Heading4</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <div class="text-box">
-    <a href="#" class="btn btn-white btn-        animate">Read more</a>
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Book 5 -->
-    <div class="wrapper">
-        <div class="card">
-            <img src="Books/b5.jpg" alt="">
-            <div class="info">
-                <h1>Heading5</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <div class="text-box">
-    <a href="#" class="btn btn-white btn-        animate">Read more</a>
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Book 6 -->
-    <div class="wrapper">
-        <div class="card">
-            <img src="Books/b6.jpg" alt="">
-            <div class="info">
-                <h1>Heading6</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <div class="text-box">
-    <a href="#" class="btn btn-white btn-        animate">Read more</a>
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Book 7 -->
-    <div class="wrapper">
-        <div class="card">
-            <img src="Books/b7.jpg" alt="">
-            <div class="info">
-                <h1>Heading7</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <div class="text-box">
-    <a href="#" class="btn btn-white btn-        animate">Read more</a>
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Book 8 -->
-    <div class="wrapper">
-        <div class="card">
-            <img src="Books/b8.jpg" alt="">
-            <div class="info">
-                <h1>Heading8</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <div class="text-box">
-    <a href="#" class="btn btn-white btn-        animate">Read more</a>
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Book 9 -->
-    <div class="wrapper">
-        <div class="card">
-            <img src="Books/b9.jpg" alt="">
-            <div class="info">
-                <h1>Heading9</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat quam nisi fuga similique molestiae?</p>
-                <div class="text-box">
-    <a href="#" class="btn btn-white btn-        animate">Read more</a>
-</div>
-            </div>
-        </div>
-    </div>
+#Quotes :
+
+1. Books: "A room without books is like body without soul" - Cicero
+2. Sports: "Sports don't build character. They reveal it"  -John Wooden
+3. Finance: "Beware of little expenes,a samll leak will sink a great ship." - Benjamin Franklin
+4. Music: "Music is the literature of the hearts, it commences where speech ends." -Alphonse de Lamartine
+5. Travel:"The journey of a thousand miles begins with a single step" -Henry Miller
+6. Movies: "You never know what hand you're gonna dealt next. You learn to take life as it comes at you, to make each day count" -Titanic
