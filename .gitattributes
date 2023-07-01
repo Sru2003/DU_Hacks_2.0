@@ -1,2 +1,1 @@
-
-*.cs linguist-vendored=false
+*.css linguist-detector=true
